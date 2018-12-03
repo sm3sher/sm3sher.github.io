@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Schulen</title>
+</head>
+<body>
+<h1>Schulen</h1>
+<table>
+    <tr>
+        <td>Name</td>
+        <td>Schüleranzahl</td>
+    </tr>
+    <tr th:each="schule : ${schulen}">
+        <td th:text="${schule.name}"/>
+        <td th:text="${schule.anzahl}"/>
+    </tr>
+</table>
+</body>
+</html>
