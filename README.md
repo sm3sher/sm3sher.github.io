@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+### Vergleich
 
-You can use the [editor on GitHub](https://github.com/sm3sher/sm3sher.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<table>
+<tr>
+  <td> </td><td> React </td> <td> Vue </td>
+</tr>
+<tr>
+  <td> Community </td>
+  <td> - 330.000 Stackoverflow Fragen <br> - 174.000 Github Stars <br> - 16.000.000 wöchentl. Downloads <br> - 41% Nutzung unter prof. Programmierern </td>
+  <td> - 80.000 Stackoverflow Fragen <br> - 187.000 Github Stars <br> - 3.300.000 wöchentl. Downloads <br> - 20% Nutzung unter prof. Programmierern </td>
+</tr>
+<tr>
+  <td> Erstellung </td>
+  <td> 
+    <pre lang="bash">$ npx create-react-app appname --template typescript</pre>
+  </td>
+ <td> 
+    <pre lang="bash">$ npm install -g @vue/cli 
+$ vue create appname</pre>
+  </td>
+</tr>
+<tr>
+  <td> Struktur </td>
+  <td>
+Code Snippets  
+</td>
+  <td>
+    ![VueCodeSnippet](https://user-images.githubusercontent.com/39101755/154427660-abe94a15-6956-4761-9c4e-902faa5806ea.png)
+  </td>
+</tr>
+</table>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sm3sher/sm3sher.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Contact support (sm3sher@gmail.com) and we’ll help you sort it out.
